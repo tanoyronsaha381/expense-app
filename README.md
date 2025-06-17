@@ -259,10 +259,10 @@ spring.kafka.consumer.properties.spring.json.type.mapping=org.expenseTracker.use
 
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.url=jdbc:mysql://${MYSQL_HOST:192.168.56.101}:${MYSQL_PORT:3306}/${MYSQL_DB:userservice}?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
-spring.datasource.username=tatha
-spring.datasource.password=password
+spring.datasource.username=root
+spring.datasource.password=root
 spring.jpa.show-sql=true
-spring.jpa.hibernate.ddl-auto=create
+spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 server.port=9810
 logging.level.org.springframework=DEBUG
